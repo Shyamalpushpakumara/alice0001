@@ -18,7 +18,7 @@ handler.before = async function (m) {
         if (m.sender !== room.game.currentTurn) { // nek wayahku
             if (!isSurrender) return !0
         }
-        if (debugMode) m.reply('[DEBUG]\n' + require('util').format({
+        if (debugMode) m.reply('[ DEBUG ]\n' + require('util').format({
             isSurrender,
             text: m.text
         }))
