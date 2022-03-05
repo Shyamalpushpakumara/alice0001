@@ -30,8 +30,8 @@ global.galau = [
     "I'm afraid you're okay, I panic if you're sick, it's because I love and care for you",
     "It hurts when the love I give you don't appreciate",
     "You suddenly changed for no reason but if there is a reason you changed please tell me so I can fix the error",
-    "Because of you I know true love"
-    "Your sweet smile is very beautiful, so don't be sad"
+    "Because of you I know true love",
+    "Your sweet smile is very beautiful, so don't be sad",
     "Starting from acquaintances, joking together, ridicule then turned into like, comfortable and finally love and care for each other",
     "Smile at the person who has hurt you so that you will know the meaning of extraordinary patience"
     "I will remember the bitter memories and I will make a lesson for a sweet future",
@@ -53,9 +53,9 @@ global.galau = [
     "Just come first and then insult others if you are and are better than the one you insulted",
     "Turning your back on him might be better than seeing him cheating in front of your own eyes",
     "Can your heart be like a swan who is only loyal to one person"
-    "I'm standing here alone waiting for you"
+    "I'm standing here alone waiting for you",
     "I only smile at you after you hurt me so you know the meaning of patience",
-    "Sorry I forgot that I'm nothing"
+    "Sorry I forgot that I'm nothing",
     "To keep your promise, there must be proof, don't let it be just a false promise",
     "I can't wait forever and now I'm doubting whether you still love me",
     "Don't make me expect too much if you don't want me"
@@ -65,7 +65,7 @@ global.galau = [
     "There will come a time how come I will completely forget and not think about you anymore",
     "Why should you fall in love with someone you can't have"
     "Honestly I also have feelings for you and can't refuse you but I'm also afraid to love you",
-    "I'm sorry honey can't be what you want"
+    "I'm sorry honey can't be what you want",
     "Don't pay too much attention like it's quite casual without needing to cause any sense",
     "I'm not looking for perfect but the best for me",
     "Alone is calm, there are no quarrels, lies and many rules",
@@ -87,5 +87,5 @@ global.galau = [
     "Getting back with you is the same as committing suicide and hurting my own feelings",
     "There's no need to retaliate by hurting so that Karma will take care of all that",
     "I still remember you but my feelings don't hurt like before",
-    "Have your own sentence & want to add it? chat *.req*"
+    "Have your own sentence & want to add it? chat *.req*",
 ]
