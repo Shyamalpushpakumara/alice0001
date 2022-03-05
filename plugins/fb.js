@@ -1,25 +1,20 @@
-let xfar = require('xfarr-api')
+const fetch = require('node-fetch')
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+  if (!args[0]) throw `uhm.. where's the url??\n\nExample:\n${usedPrefix + command} https://www.facebook.com/alanwalkermusic/videos/277641643524720`
+  if (/^https?:\/\/.*(fb.watch|facebook.com)/i.test(m.text)) throw `url erorr`
 
-let fetch = require('node-fetch')
-
-let handler = async (m, { conn, command, text }) => {
-
-    if (!text) throw 'ලින්ක් එක 😒'
-
-  let res = await xfar.Facebook(text)
-
-m.reply('*WAIT...*')
-
-conn.sendFile(m.chat,res.medias[1].url, 'fb.mp4', `Tittle: ${res.tittle}
-Link Video: ${res.url}
-`, m)
-
+  let res = await fetch(API('neoxr', '/api/download/fb', { url: args[0] }, 'apikey'))
+  if (!res.ok) throw eror
+  let json = await res.json()
+  if (!json.status) throw json
+  await m.reply(wait)
+  await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nSize: ${json.data.hd.size}\n\n© Alice 🥀`, m)
 }
-
-handler.help = ['fb <url>', 'facebook <url>']
-
+handler.help = ['fb'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
-handler.command = /^fb|facebook$/i
+handler.command = /^f((b|acebook)(dl|download)?(er)?)$/i
+
+handler.limit = true
 
 module.exports = handler
