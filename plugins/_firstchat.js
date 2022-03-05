@@ -7,7 +7,7 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
     await this.sendButton(m.chat, `
 Hi, ${this.ucapan()}
-${user.banned ? 'you are banned' : `Can anyone help with ${this.user.name}?`}
+${user.banned ? 'you are banned' : `How Can i help You ${this.user.name}?`}
 `.trim(), '© Alice 🥀', user.banned ? '😗' : 'Menu', user.banned ? '😗' : ',?', m)
     user.pc = new Date * 1
 }
