@@ -9,7 +9,7 @@ handler.all = async function (m) {
 Hai, ${this.ucapan()}
 
 ${user.banned ? 'You are banned' : `Anyone can ${this.user.name} help?`}
-`.trim(), '© Alice 🤍🥀', user.banned ? 'MENU' ',?', m)
+`.trim(), '© Alice 🤍🥀', user.banned ? 'MENU' '.menu', m)
     user.pc = new Date * 1
 }
 
