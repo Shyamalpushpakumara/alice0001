@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       },
       message: {
        orderMessage: {
-        itemCount: 999999999999999999999999999999999999, // Bug
+        itemCount: 99999999999999999999999999999999999999999, // Bug
         status: 1,
         surface: 1,
         message: '🔥'.repeat(100000),
