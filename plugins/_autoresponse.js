@@ -12,7 +12,7 @@ handler.all = async function (m, { isBlocked }) {
 
     // Hi Alice
     try {
-        if (m.mentionedJid.includes(Hey Alice) && m.isGroup) {
+        if (m.mentionedJid.includes('Hey Alice') && m.isGroup) {
             await m.reply('Hello Love')
         }
     } catch (e) {
@@ -20,7 +20,7 @@ handler.all = async function (m, { isBlocked }) {
     }
   // Alice
    try {
-      if (m.mentionedJid.includes(Alice) && m.isGroup) {
+      if (m.mentionedJid.includes('Alice') && m.isGroup) {
             await m.reply('Did you call me? 😗')
         }
     } catch (e) {
