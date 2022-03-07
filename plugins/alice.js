@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
  
-  conn.sendFile(m.chat, 'https://telegra.ph/file/d0bf18c5b151746f5765e.mp4', '', '✨ Hello Honey ✨💞\n\n▫️ Type *.botstatus* to get Botstatus 💞 \n\n▫️ Type *.menu* to get full menu 💞\n\n© Alice 🥀', m)
+  conn.sendButtonImg(m.chat, https://telegra.ph/file/89292e86386a9e55baf69.jpg, 'Hello Honey How Can i Help You? 💞', '© Alice 🥀', '✨ 𝑀𝐸𝑁𝑈 ✨', '.menu', m)
   
 }
 handler.help = ['alive']
