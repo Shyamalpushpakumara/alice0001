@@ -26,3 +26,5 @@ handler.all = async function (m, { isBlocked }) {
     } catch (e) {
         return
     }
+
+module.exports = handler
