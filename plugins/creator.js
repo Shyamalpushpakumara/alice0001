@@ -3,7 +3,7 @@ let handler = async function (m, { conn }) {
   for (let i of owner.map(v => v + '@s.whatsapp.net')) {
     let name = db.data.users[i] ? db.data.users[i].name : conn.getName(i)
     list.push({
-      "displayName": name,
+      "displayName": ZeroTwo ˙˚ʚ🍕ɞ˚˙,
       "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:;${name};;;\nFN:${name}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Mobile\nEND:VCARD`
     })
   }
