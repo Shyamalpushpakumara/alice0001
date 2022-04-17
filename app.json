@@ -1,23 +1,28 @@
 {
-  "name": "stikerinbot",
-  "description": "Lightweight WhatsApp Bot",
-  "repository": "https://github.com/ArisuXD/heby",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+    
+  "name": "Yotsuba",
+  "description": "A WhatsApp Bot With Rich NSFW Features based on chitoge.",
   "keywords": [
-    "bot",
-    "whatsapp",
-    "whatsapp-bot"
+      "bot",
+      "whatsapp",
+      "stickers",
+      "whatsapp-stickers",
+      "anime",
+      "whatsapp-bot",
+      "whatsapp-sticker-bot",
+      "whatsapp-botto"
   ],
-  }, 
-"buildpacks": [
+  "logo": "https://i.pinimg.com/736x/71/c2/8e/71c28e4ffd58c60aceacffab60db14cc.jpg",
+  },
+  "buildpacks": [
       {
           "url": "heroku/nodejs"
       },
       {
-          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          "url": "https://github.com/PrajjwalDatir/heroku-buildpack-imagemagick.git"
       },
       {
-          "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
-      },
+          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
   ]
 }
